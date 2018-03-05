@@ -11,8 +11,8 @@ import android.widget.Toast;
 import java.util.List;
 import java.util.Random;
 
-import global.PivtrumGlobalData;
-import pivtrum.PivtrumPeerData;
+import global.SendtrumGlobalData;
+import sendtrum.SendtrumPeerData;
 import send.org.sendwallet.R;
 import send.org.sendwallet.ui.backup_mnemonic_activity.MnemonicActivity;
 import send.org.sendwallet.ui.base.BaseActivity;
@@ -66,7 +66,7 @@ public class PincodeActivity extends BaseActivity implements KeyboardFragment.on
     private void goNext() {
         if (sendApplication.getAppConf().getTrustedNode()==null){
             // select random trusted node
-            List<PivtrumPeerData> nodes = PivtrumGlobalData.listTrustedHosts();
+            List<SendtrumPeerData> nodes = SendtrumGlobalData.listTrustedHosts();
             Random random = new Random();
             sendApplication.setTrustedServer(nodes.get(random.nextInt(nodes.size())));
             sendApplication.stopBlockchain();

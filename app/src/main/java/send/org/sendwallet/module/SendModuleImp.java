@@ -42,7 +42,7 @@ import java.util.concurrent.TimeoutException;
 import chain.BlockchainManager;
 import global.ContextWrapper;
 import global.WalletConfiguration;
-import pivtrum.PivtrumPeergroup;
+import sendtrum.SendtrumPeergroup;
 import send.org.sendwallet.contacts.AddressLabel;
 import send.org.sendwallet.contacts.ContactsStore;
 import send.org.sendwallet.module.wallet.WalletBackupHelper;
@@ -67,7 +67,7 @@ public class SendModuleImp implements SendModule {
     private WalletConfiguration walletConfiguration;
     private WalletManager walletManager;
     private BlockchainManager blockchainManager;
-    private PivtrumPeergroup peergroup;
+    private SendtrumPeergroup peergroup;
     private ContactsStore contactsStore;
     private RateDb rateDb;
 
@@ -89,7 +89,7 @@ public class SendModuleImp implements SendModule {
     }
 
     // todo: clean this.
-    //public void setPivtrumPeergroup(PivtrumPeergroup peergroup){
+    //public void setSendtrumPeergroup(SendtrumPeergroup peergroup){
         //peergroup.setAddressStore(addressStore);
         //peergroup.setWalletManager(walletManager);
         //this.peergroup = peergroup;

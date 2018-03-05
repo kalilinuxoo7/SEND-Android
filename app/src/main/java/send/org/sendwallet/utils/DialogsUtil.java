@@ -22,8 +22,8 @@ import java.net.Socket;
 import java.net.SocketAddress;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import global.PivtrumGlobalData;
-import pivtrum.PivtrumPeerData;
+import global.SendtrumGlobalData;
+import sendtrum.SendtrumPeerData;
 import send.org.sendwallet.R;
 import send.org.sendwallet.module.SendContext;
 import send.org.sendwallet.ui.address_add_activity.AddContactActivity;
@@ -92,7 +92,7 @@ public class DialogsUtil {
 
 
     public interface TrustedNodeDialogListener{
-        void onNodeSelected(PivtrumPeerData pivtrumPeerData);
+        void onNodeSelected(SendtrumPeerData sendtrumPeerData);
     }
 
     public static DialogBuilder buildtrustedNodeDialog(final Activity context, final TrustedNodeDialogListener trustedNodeDialogListener){
@@ -115,7 +115,7 @@ public class DialogsUtil {
                     final String tcpPortStr = editTcp.getText().toString();
                     final String sslPortStr = editSsl.getText().toString();
                     int tcpPort = SendContext.NETWORK_PARAMETERS.getPort();
-                    if (host.equals(PivtrumGlobalData.FURSZY_TESTNET_SERVER)){
+                    if (host.equals(SendtrumGlobalData.FURSZY_TESTNET_SERVER)){
                         tcpPort = 50050;
                     }
                     int sslPort = 0;
@@ -138,7 +138,7 @@ public class DialogsUtil {
                                 public void run() {
                                     if(check){
                                         trustedNodeDialogListener.onNodeSelected(
-                                                new PivtrumPeerData(
+                                                new SendtrumPeerData(
                                                         host,
                                                         finalTcpPort,
                                                         finalSslPort)

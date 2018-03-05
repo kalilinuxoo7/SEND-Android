@@ -1,8 +1,8 @@
-# PIVX-Wallet
+# SEND-Wallet
 
-![alt text](https://github.com/PIVX-Project/PIVX-Android/blob/master/banner/Feature%20Image.jpg)
+![alt text](https://github.com/SocialSend/SocialSend/blob/master/src/qt/res/images/send_logo_horizontal.png)
 
-Welcome to the PIVX mobile wallet for android!
+Welcome to the SEND mobile wallet for android!
 
 
 This project contains several sub-projects:
@@ -11,7 +11,7 @@ app: The Android app itself. This is probably what you're searching for.
 
 pivtrumj: Stratum protocol implementation.
 
-pivx-core-0.14.3-12.1: pivxj.
+send-core-0.14.3-12.1: sendj.
 
 You can build all sub-projects at once using Gradle:
 

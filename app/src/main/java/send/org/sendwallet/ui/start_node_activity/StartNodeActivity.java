@@ -18,9 +18,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-import global.PivtrumGlobalData;
-import pivtrum.PivtrumPeer;
-import pivtrum.PivtrumPeerData;
+import global.SendtrumGlobalData;
+import sendtrum.SendtrumPeer;
+import sendtrum.SendtrumPeerData;
 import send.org.sendwallet.R;
 import send.org.sendwallet.ui.base.BaseActivity;
 import send.org.sendwallet.ui.pincode_activity.PincodeActivity;
@@ -28,7 +28,7 @@ import send.org.sendwallet.ui.wallet_activity.WalletActivity;
 import send.org.sendwallet.utils.DialogBuilder;
 import send.org.sendwallet.utils.DialogsUtil;
 
-import static global.PivtrumGlobalData.FURSZY_TESTNET_SERVER;
+import static global.SendtrumGlobalData.FURSZY_TESTNET_SERVER;
 
 /**
  * Created by Neoperol on 6/27/17.
@@ -42,7 +42,7 @@ public class StartNodeActivity extends BaseActivity {
     private ArrayAdapter<String> adapter;
     private List<String> hosts = new ArrayList<>();
 
-    private static final List<PivtrumPeerData> trustedNodes = PivtrumGlobalData.listTrustedHosts();
+    private static final List<SendtrumPeerData> trustedNodes = SendtrumGlobalData.listTrustedHosts();
 
     @Override
     protected void onCreateView(Bundle savedInstanceState, ViewGroup container) {
@@ -58,13 +58,13 @@ public class StartNodeActivity extends BaseActivity {
             public void onClick(View view) {
                 DialogBuilder dialogBuilder = DialogsUtil.buildtrustedNodeDialog(StartNodeActivity.this, new DialogsUtil.TrustedNodeDialogListener() {
                     @Override
-                    public void onNodeSelected(PivtrumPeerData pivtrumPeerData) {
-                        if(!trustedNodes.contains(pivtrumPeerData)) {
+                    public void onNodeSelected(SendtrumPeerData sendtrumPeerData) {
+                        if(!trustedNodes.contains(sendtrumPeerData)) {
                             dropdown.setAdapter(null);
                             adapter.clear();
                             hosts = new ArrayList<String>();
-                            trustedNodes.add(pivtrumPeerData);
-                            for (PivtrumPeerData trustedNode : trustedNodes) {
+                            trustedNodes.add(sendtrumPeerData);
+                            for (SendtrumPeerData trustedNode : trustedNodes) {
                                 if (trustedNode.getHost().equals(FURSZY_TESTNET_SERVER)) {
                                     hosts.add("peer.socialsend.io");
                                 } else
@@ -87,7 +87,7 @@ public class StartNodeActivity extends BaseActivity {
             @Override
             public void onClick(View v) {
                 int selected = dropdown.getSelectedItemPosition();
-                PivtrumPeerData selectedNode = trustedNodes.get(selected);
+                SendtrumPeerData selectedNode = trustedNodes.get(selected);
                 boolean isStarted = sendApplication.getAppConf().getTrustedNode()!=null;
                 sendApplication.setTrustedServer(selectedNode);
 
@@ -109,16 +109,16 @@ public class StartNodeActivity extends BaseActivity {
         dropdown = (Spinner)findViewById(R.id.spinner);
 
         // add connected node if it's not on the list
-        PivtrumPeerData pivtrumPeer = sendApplication.getAppConf().getTrustedNode();
-        if (pivtrumPeer!=null && !pivtrumPeer.getHost().equals(FURSZY_TESTNET_SERVER)){
-            trustedNodes.add(pivtrumPeer);
+        SendtrumPeerData sendtrumPeer = sendApplication.getAppConf().getTrustedNode();
+        if (sendtrumPeer!=null && !sendtrumPeer.getHost().equals(FURSZY_TESTNET_SERVER)){
+            trustedNodes.add(sendtrumPeer);
         }
 
         int selectionPos = 0;
 
         for (int i=0;i<trustedNodes.size();i++){
-            PivtrumPeerData trustedNode = trustedNodes.get(i);
-            if (pivtrumPeer!=null && pivtrumPeer.getHost().equals(trustedNode)){
+            SendtrumPeerData trustedNode = trustedNodes.get(i);
+            if (sendtrumPeer!=null && sendtrumPeer.getHost().equals(trustedNode)){
                 selectionPos = i;
             }
             if (trustedNode.getHost().equals(FURSZY_TESTNET_SERVER)){

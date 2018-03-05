@@ -34,8 +34,8 @@ import ch.qos.logback.core.rolling.TimeBasedRollingPolicy;
 import global.ContextWrapper;
 import global.WalletConfiguration;
 import global.utils.Io;
-import pivtrum.NetworkConf;
-import pivtrum.PivtrumPeerData;
+import sendtrum.NetworkConf;
+import sendtrum.SendtrumPeerData;
 import send.org.sendwallet.contacts.ContactsStore;
 import send.org.sendwallet.module.SendContext;
 import send.org.sendwallet.module.SendModule;
@@ -255,7 +255,7 @@ public class SendApplication extends Application implements ContextWrapper {
      *
      * @param trustedServer
      */
-    public void setTrustedServer(PivtrumPeerData trustedServer) {
+    public void setTrustedServer(SendtrumPeerData trustedServer) {
         networkConf.setTrustedServer(trustedServer);
         sendModule.getConf().saveTrustedNode(trustedServer.getHost(),0);
         appConf.saveTrustedNode(trustedServer);

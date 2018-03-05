@@ -47,7 +47,7 @@ import java.util.concurrent.atomic.AtomicBoolean;
 import chain.BlockchainManager;
 import chain.BlockchainState;
 import chain.Impediment;
-import pivtrum.listeners.AddressListener;
+import sendtrum.listeners.AddressListener;
 import send.org.sendwallet.SendApplication;
 import send.org.sendwallet.R;
 import send.org.sendwallet.module.SendContext;
@@ -87,7 +87,7 @@ public class SendWalletService extends Service{
 
     private SendApplication sendApplication;
     private SendModuleImp module;
-    //private PivtrumPeergroup pivtrumPeergroup;
+    //private SendtrumPeergroup sendtrumPeergroup;
     private BlockchainManager blockchainManager;
 
     private PeerConnectivityListener peerConnectivityListener;
@@ -326,10 +326,10 @@ public class SendWalletService extends Service{
             sendApplication = SendApplication.getInstance();
             module = (SendModuleImp) sendApplication.getModule();
             blockchainManager = module.getBlockchainManager();
-            // connect to pivtrum node
-            /*pivtrumPeergroup = new PivtrumPeergroup(sendApplication.getNetworkConf());
-            pivtrumPeergroup.addAddressListener(addressListener);
-            module.setPivtrumPeergroup(pivtrumPeergroup);*/
+            // connect to sendtrum node
+            /*sendtrumPeergroup = new SendtrumPeergroup(sendApplication.getNetworkConf());
+            sendtrumPeergroup.addAddressListener(addressListener);
+            module.setSendtrumPeergroup(sendtrumPeergroup);*/
 
             // Schedule service
             tryScheduleService();
@@ -357,7 +357,7 @@ public class SendWalletService extends Service{
             registerReceiver(connectivityReceiver, intentFilter); // implicitly init PeerGroup
 
             // initilizing trusted node.
-            //pivtrumPeergroup.start();
+            //sendtrumPeergroup.start();
 
 
         } catch (Error e){
@@ -433,8 +433,8 @@ public class SendWalletService extends Service{
             }*/
             blockchainManager.destroy(resetBlockchainOnShutdown);
 
-            /*if (pivtrumPeergroup.isRunning()) {
-                pivtrumPeergroup.shutdown();
+            /*if (sendtrumPeergroup.isRunning()) {
+                sendtrumPeergroup.shutdown();
             }*/
 
             if (wakeLock.isHeld()) {

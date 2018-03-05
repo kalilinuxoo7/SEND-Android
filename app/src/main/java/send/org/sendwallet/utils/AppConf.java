@@ -2,7 +2,7 @@ package send.org.sendwallet.utils;
 
 import android.content.SharedPreferences;
 
-import pivtrum.PivtrumPeerData;
+import sendtrum.SendtrumPeerData;
 
 import static send.org.sendwallet.module.SendContext.DEFAULT_RATE_COIN;
 
@@ -47,17 +47,17 @@ public class AppConf extends Configurations {
         return getString(PINCODE,null);
     }
 
-    public void saveTrustedNode(PivtrumPeerData pivtrumPeerData){
-        save(TRUSTED_NODE_HOST,pivtrumPeerData.getHost());
-        save(TRUSTED_NODE_TCP,pivtrumPeerData.getTcpPort());
-        save(TRUSTED_NODE_SSL,pivtrumPeerData.getSslPort());
+    public void saveTrustedNode(SendtrumPeerData sendtrumPeerData){
+        save(TRUSTED_NODE_HOST,sendtrumPeerData.getHost());
+        save(TRUSTED_NODE_TCP,sendtrumPeerData.getTcpPort());
+        save(TRUSTED_NODE_SSL,sendtrumPeerData.getSslPort());
     }
-    public PivtrumPeerData getTrustedNode(){
+    public SendtrumPeerData getTrustedNode(){
         String host = getString(TRUSTED_NODE_HOST,null);
         if (host!=null){
             int tcp = getInt(TRUSTED_NODE_TCP,-1);
             int ssl = getInt(TRUSTED_NODE_TCP,-1);
-            return new PivtrumPeerData(host,tcp,ssl);
+            return new SendtrumPeerData(host,tcp,ssl);
         }else
             return null;
     }
