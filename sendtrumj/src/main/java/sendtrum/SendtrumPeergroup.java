@@ -2,8 +2,8 @@ package sendtrum;
 
 import org.sendj.core.Address;
 import org.sendj.core.CoinDefinition;
-import org.furszy.client.IoManager;
-import org.furszy.client.exceptions.ConnectionFailureException;
+import org.kaali.client.IoManager;
+import org.kaali.client.exceptions.ConnectionFailureException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -31,7 +31,7 @@ import store.DbException;
 import wallet.WalletManager;
 
 /**
- * Created by furszy on 6/12/17.
+ * Created by kaali on 6/12/17.
  *
  * Class in charge of manage the connection with sendtrum servers.
  *

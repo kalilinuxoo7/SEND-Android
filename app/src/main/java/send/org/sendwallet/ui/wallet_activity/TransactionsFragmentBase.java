@@ -31,7 +31,7 @@ import static send.org.sendwallet.ui.transaction_detail_activity.FragmentTxDetai
 import static send.org.sendwallet.utils.TxUtils.getAddressOrContact;
 
 /**
- * Created by furszy on 6/29/17.
+ * Created by kaali on 6/29/17.
  */
 
 public class TransactionsFragmentBase extends BaseRecyclerFragment<TransactionWrapper> {

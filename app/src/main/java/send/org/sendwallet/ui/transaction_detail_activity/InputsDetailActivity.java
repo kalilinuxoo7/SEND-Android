@@ -7,7 +7,7 @@ import send.org.sendwallet.R;
 import send.org.sendwallet.ui.base.BaseActivity;
 
 /**
- * Created by furszy on 8/14/17.
+ * Created by kaali on 8/14/17.
  */
 
 public class InputsDetailActivity extends BaseActivity {

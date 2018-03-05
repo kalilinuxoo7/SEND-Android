@@ -1,7 +1,7 @@
 package send.org.sendwallet.service;
 
 /**
- * Created by furszy on 6/19/17.
+ * Created by kaali on 6/19/17.
  */
 
 public class IntentsConstants {

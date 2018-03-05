@@ -10,7 +10,7 @@ import send.org.sendwallet.SendApplication;
 import send.org.sendwallet.module.SendModule;
 
 /**
- * Created by furszy on 6/29/17.
+ * Created by kaali on 6/29/17.
  */
 
 public class BaseFragment extends Fragment {

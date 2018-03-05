@@ -42,7 +42,7 @@ import global.ContextWrapper;
 import global.WalletConfiguration;
 import wallet.WalletManager;
 
-import static global.SendtrumGlobalData.FURSZY_TESTNET_SERVER;
+import static global.SendtrumGlobalData.KAALI_TESTNET_SERVER;
 
 public class BlockchainManager {
 
@@ -285,7 +285,7 @@ public class BlockchainManager {
                             if (hasTrustedPeer) {
                                 LOG.info("trusted peer '" + trustedPeerHost + "'" + (connectTrustedPeerOnly ? " only" : ""));
                                 final InetSocketAddress addr;
-                                if (trustedPeerHost.equals(FURSZY_TESTNET_SERVER) && !conf.isTest()){
+                                if (trustedPeerHost.equals(KAALI_TESTNET_SERVER) && !conf.isTest()){
                                     addr = new InetSocketAddress(trustedPeerHost, 50050);
                                 }else {
                                     addr = new InetSocketAddress(trustedPeerHost, conf.getNetworkParams().getPort());
@@ -297,7 +297,7 @@ public class BlockchainManager {
                                 }
                                 /*if (conf.isTest()){
                                     // add one more peer to validate tx
-                                    peers.add(new InetSocketAddress(FURSZY_TESTNET_SERVER,6444));
+                                    peers.add(new InetSocketAddress(KAALI_TESTNET_SERVER,6444));
                                     needsTrimPeersWorkaround = false;
                                 }*/
                             }

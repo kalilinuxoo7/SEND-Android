@@ -1,7 +1,7 @@
 package send.org.sendwallet;
 
 /**
- * Created by furszy on 6/29/17.
+ * Created by kaali on 6/29/17.
  */
 
 public class HardcodedConstants {

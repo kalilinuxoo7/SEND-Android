@@ -4,7 +4,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by furszy on 6/14/17.
+ * Created by kaali on 6/14/17.
  */
 
 public class SubscribeAddressMsg extends BaseMsg<SubscribeAddressMsg> {

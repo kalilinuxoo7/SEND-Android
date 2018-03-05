@@ -6,7 +6,7 @@ import java.util.List;
 import sendtrum.utility.TxHashHeightWrapper;
 
 /**
- * Created by furszy on 9/16/17.
+ * Created by kaali on 9/16/17.
  */
 
 public class StatusHistory {

@@ -16,7 +16,7 @@ dependencies {
     compile group: 'commons-codec', name: 'commons-codec', version: '1.10'
     compile 'com.madgag.spongycastle:core:1.54.0.0'
     compile project(':send-core-0.14.3-12.1')
-    compile files('lib/furszy-non-blocking-client-0.0.1.jar')
+    compile files('lib/kaali-non-blocking-client-0.0.1.jar')
     compile group: 'commons-validator', name: 'commons-validator', version: '1.6'
     compile group: 'org.json', name: 'json', version: '20170516'
     compile 'com.lambdaworks:scrypt:1.4.0'

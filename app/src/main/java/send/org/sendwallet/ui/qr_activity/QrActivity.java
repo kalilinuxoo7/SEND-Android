@@ -9,7 +9,7 @@ import send.org.sendwallet.ui.base.BaseActivity;
 import send.org.sendwallet.utils.NavigationUtils;
 
 /**
- * Created by furszy on 6/8/17.
+ * Created by kaali on 6/8/17.
  */
 
 public class QrActivity extends BaseActivity {

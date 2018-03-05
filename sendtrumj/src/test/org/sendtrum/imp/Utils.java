@@ -9,7 +9,7 @@ import org.spongycastle.util.encoders.Hex;
 import static org.sendj.core.ECKey.CURVE;
 
 /**
- * Created by furszy on 8/13/17.
+ * Created by kaali on 8/13/17.
  */
 
 public class Utils {

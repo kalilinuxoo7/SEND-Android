@@ -8,7 +8,7 @@ import sendtrum.messages.responses.Unspent;
 import sendtrum.utility.TxHashHeightWrapper;
 
 /**
- * Created by furszy on 6/17/17.
+ * Created by kaali on 6/17/17.
  */
 
 public interface PeerDataListener {

@@ -7,7 +7,7 @@ import org.sendj.params.TestNet3Params;
 import global.WalletConfiguration;
 
 /**
- * Created by furszy on 6/16/17.
+ * Created by kaali on 6/16/17.
  */
 
 public class WalletConfigurationsImp implements WalletConfiguration {

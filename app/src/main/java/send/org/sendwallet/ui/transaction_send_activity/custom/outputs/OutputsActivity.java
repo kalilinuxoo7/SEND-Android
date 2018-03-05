@@ -21,7 +21,7 @@ import send.org.sendwallet.ui.base.BaseActivity;
 import send.org.sendwallet.utils.DialogsUtil;
 
 /**
- * Created by furszy on 8/4/17.
+ * Created by kaali on 8/4/17.
  */
 
 public class OutputsActivity extends BaseActivity {

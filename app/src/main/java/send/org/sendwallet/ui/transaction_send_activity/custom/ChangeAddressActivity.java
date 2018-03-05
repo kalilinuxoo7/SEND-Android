@@ -25,7 +25,7 @@ import static send.org.sendwallet.utils.scanner.ScanActivity.INTENT_EXTRA_RESULT
 
 
 /**
- * Created by furszy on 10/17/17.
+ * Created by kaali on 10/17/17.
  */
 
 public class ChangeAddressActivity extends BaseActivity {

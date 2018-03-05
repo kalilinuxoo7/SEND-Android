@@ -24,7 +24,7 @@ import static send.org.sendwallet.service.IntentsConstants.ACTION_BROADCAST_TRAN
 import static send.org.sendwallet.service.IntentsConstants.DATA_TRANSACTION_HASH;
 
 /**
- * Created by furszy on 7/24/17.
+ * Created by kaali on 7/24/17.
  */
 
 public class DonateActivity extends BaseDrawerActivity {

@@ -31,7 +31,7 @@ import send.org.sendwallet.ui.base.dialogs.SimpleTextDialog;
 import send.org.sendwallet.ui.base.dialogs.SimpleTwoButtonsDialog;
 
 /**
- * Created by furszy on 7/5/17.
+ * Created by kaali on 7/5/17.
  */
 
 public class DialogsUtil {
@@ -115,7 +115,7 @@ public class DialogsUtil {
                     final String tcpPortStr = editTcp.getText().toString();
                     final String sslPortStr = editSsl.getText().toString();
                     int tcpPort = SendContext.NETWORK_PARAMETERS.getPort();
-                    if (host.equals(SendtrumGlobalData.FURSZY_TESTNET_SERVER)){
+                    if (host.equals(SendtrumGlobalData.KAALI_TESTNET_SERVER)){
                         tcpPort = 50050;
                     }
                     int sslPort = 0;

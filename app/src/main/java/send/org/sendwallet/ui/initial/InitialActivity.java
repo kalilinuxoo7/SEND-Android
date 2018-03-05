@@ -11,7 +11,7 @@ import send.org.sendwallet.ui.wallet_activity.WalletActivity;
 import send.org.sendwallet.utils.AppConf;
 
 /**
- * Created by furszy on 8/19/17.
+ * Created by kaali on 8/19/17.
  */
 
 public class InitialActivity extends AppCompatActivity {

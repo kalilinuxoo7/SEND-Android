@@ -1,7 +1,7 @@
 package sendtrum;
 
 /**
- * Created by furszy on 6/13/17.
+ * Created by kaali on 6/13/17.
  */
 
 public class SendtrumPeerData {

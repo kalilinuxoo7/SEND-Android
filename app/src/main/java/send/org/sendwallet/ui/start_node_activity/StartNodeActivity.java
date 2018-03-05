@@ -28,7 +28,7 @@ import send.org.sendwallet.ui.wallet_activity.WalletActivity;
 import send.org.sendwallet.utils.DialogBuilder;
 import send.org.sendwallet.utils.DialogsUtil;
 
-import static global.SendtrumGlobalData.FURSZY_TESTNET_SERVER;
+import static global.SendtrumGlobalData.KAALI_TESTNET_SERVER;
 
 /**
  * Created by Neoperol on 6/27/17.
@@ -65,7 +65,7 @@ public class StartNodeActivity extends BaseActivity {
                             hosts = new ArrayList<String>();
                             trustedNodes.add(sendtrumPeerData);
                             for (SendtrumPeerData trustedNode : trustedNodes) {
-                                if (trustedNode.getHost().equals(FURSZY_TESTNET_SERVER)) {
+                                if (trustedNode.getHost().equals(KAALI_TESTNET_SERVER)) {
                                     hosts.add("peer.socialsend.io");
                                 } else
                                     hosts.add(trustedNode.getHost());
@@ -110,7 +110,7 @@ public class StartNodeActivity extends BaseActivity {
 
         // add connected node if it's not on the list
         SendtrumPeerData sendtrumPeer = sendApplication.getAppConf().getTrustedNode();
-        if (sendtrumPeer!=null && !sendtrumPeer.getHost().equals(FURSZY_TESTNET_SERVER)){
+        if (sendtrumPeer!=null && !sendtrumPeer.getHost().equals(KAALI_TESTNET_SERVER)){
             trustedNodes.add(sendtrumPeer);
         }
 
@@ -121,7 +121,7 @@ public class StartNodeActivity extends BaseActivity {
             if (sendtrumPeer!=null && sendtrumPeer.getHost().equals(trustedNode)){
                 selectionPos = i;
             }
-            if (trustedNode.getHost().equals(FURSZY_TESTNET_SERVER)){
+            if (trustedNode.getHost().equals(KAALI_TESTNET_SERVER)){
                 hosts.add("peer.socialsend.io");
             }else
                 hosts.add(trustedNode.getHost());

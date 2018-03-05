@@ -1,7 +1,7 @@
 package sendtrum.exceptions;
 
 /**
- * Created by furszy on 6/17/17.
+ * Created by kaali on 6/17/17.
  */
 
 public class InvalidPeerVersion extends Exception {

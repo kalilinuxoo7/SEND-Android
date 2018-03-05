@@ -4,7 +4,7 @@ import org.sendj.core.Context;
 import org.sendj.core.NetworkParameters;
 
 /**
- * Created by furszy on 6/4/17.
+ * Created by kaali on 6/4/17.
  */
 
 public interface WalletConfiguration {

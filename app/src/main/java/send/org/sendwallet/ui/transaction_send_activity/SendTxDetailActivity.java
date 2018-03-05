@@ -10,7 +10,7 @@ import send.org.sendwallet.ui.base.BaseActivity;
 import send.org.sendwallet.ui.pincode_activity.PincodeActivity;
 
 /**
- * Created by furszy on 8/7/17.
+ * Created by kaali on 8/7/17.
  * //
  */
 

@@ -22,7 +22,7 @@ import send.org.sendwallet.utils.DialogsUtil;
 import static send.org.sendwallet.utils.CrashReporter.appendSavedBackgroundTraces;
 
 /**
- * Created by furszy on 8/30/17.
+ * Created by kaali on 8/30/17.
  */
 
 public class SettingsWatchOnly extends BaseActivity {

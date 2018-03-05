@@ -8,7 +8,7 @@ import java.util.List;
 import sendtrum.utility.TxHashHeightWrapper;
 
 /**
- * Created by furszy on 6/18/17.
+ * Created by kaali on 6/18/17.
  */
 
 public class AddressBalance implements Serializable{

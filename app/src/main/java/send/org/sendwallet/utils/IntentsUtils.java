@@ -14,7 +14,7 @@ import send.org.sendwallet.R;
 import send.org.sendwallet.module.SendContext;
 
 /**
- * Created by furszy on 7/10/17.
+ * Created by kaali on 7/10/17.
  */
 
 public class IntentsUtils {

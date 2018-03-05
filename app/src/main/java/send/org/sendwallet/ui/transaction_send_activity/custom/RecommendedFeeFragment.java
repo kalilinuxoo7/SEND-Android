@@ -14,7 +14,7 @@ import send.org.sendwallet.R;
 import send.org.sendwallet.ui.base.BaseFragment;
 
 /**
- * Created by furszy on 8/3/17.
+ * Created by kaali on 8/3/17.
  */
 
 public class RecommendedFeeFragment extends BaseFragment {

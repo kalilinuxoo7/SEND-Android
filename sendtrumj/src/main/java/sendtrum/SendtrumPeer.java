@@ -3,20 +3,20 @@ package sendtrum;
 import com.google.protobuf.ByteString;
 
 import org.sendj.core.Sha256Hash;
-import org.furszy.client.IoManager;
-import org.furszy.client.basic.BaseMsgFuture;
-import org.furszy.client.basic.IoSessionConfImp;
-import org.furszy.client.basic.WriteFutureImp;
-import org.furszy.client.basic.WriteRequestImp;
-import org.furszy.client.exceptions.ConnectionFailureException;
-import org.furszy.client.exceptions.InvalidProtocolViolationException;
-import org.furszy.client.interfaces.ConnectFuture;
-import org.furszy.client.interfaces.IoHandler;
-import org.furszy.client.interfaces.IoSession;
-import org.furszy.client.interfaces.ProtocolDecoder;
-import org.furszy.client.interfaces.ProtocolEncoder;
-import org.furszy.client.interfaces.write.WriteFuture;
-import org.furszy.client.interfaces.write.WriteRequest;
+import org.kaali.client.IoManager;
+import org.kaali.client.basic.BaseMsgFuture;
+import org.kaali.client.basic.IoSessionConfImp;
+import org.kaali.client.basic.WriteFutureImp;
+import org.kaali.client.basic.WriteRequestImp;
+import org.kaali.client.exceptions.ConnectionFailureException;
+import org.kaali.client.exceptions.InvalidProtocolViolationException;
+import org.kaali.client.interfaces.ConnectFuture;
+import org.kaali.client.interfaces.IoHandler;
+import org.kaali.client.interfaces.IoSession;
+import org.kaali.client.interfaces.ProtocolDecoder;
+import org.kaali.client.interfaces.ProtocolEncoder;
+import org.kaali.client.interfaces.write.WriteFuture;
+import org.kaali.client.interfaces.write.WriteRequest;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
@@ -54,7 +54,7 @@ import sendtrum.messages.responses.Unspent;
 import sendtrum.utility.TxHashHeightWrapper;
 
 /**
- * Created by furszy on 6/12/17.
+ * Created by kaali on 6/12/17.
  *
  * Class in charge of connect to a single peer on the network
  *

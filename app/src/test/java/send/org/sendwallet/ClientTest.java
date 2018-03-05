@@ -31,7 +31,7 @@ import sendtrum.messages.SubscribeAddressMsg;
 import sendtrum.messages.VersionMsg;
 
 /**
- * Created by furszy on 6/5/17.
+ * Created by kaali on 6/5/17.
  */
 
 public class ClientTest {

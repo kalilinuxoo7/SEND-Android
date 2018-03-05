@@ -4,7 +4,7 @@ package org.sendtrum;
 import org.sendj.core.Address;
 import org.sendj.core.Coin;
 import org.sendj.utils.MonetaryFormat;
-import org.furszy.client.exceptions.ConnectionFailureException;
+import org.kaali.client.exceptions.ConnectionFailureException;
 import org.junit.Test;
 import org.sendtrum.imp.AddressStoreImp;
 import org.sendtrum.imp.ContextWrapperImp;
@@ -30,7 +30,7 @@ import store.CantInsertAddressException;
 import wallet.WalletManager;
 
 *
- * Created by furszy on 6/15/17.
+ * Created by kaali on 6/15/17.
  * todo: probar qué id tienen los push del servidor del subscribe address o del subscribe height... necesito saber eso para decodificarlo.
 
 

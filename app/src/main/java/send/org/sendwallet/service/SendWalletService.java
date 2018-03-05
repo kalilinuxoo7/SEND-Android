@@ -78,7 +78,7 @@ import static send.org.sendwallet.service.IntentsConstants.NOT_BLOCKCHAIN_ALERT;
 import static send.org.sendwallet.service.IntentsConstants.NOT_COINS_RECEIVED;
 
 /**
- * Created by furszy on 6/12/17.
+ * Created by kaali on 6/12/17.
  */
 
 public class SendWalletService extends Service{

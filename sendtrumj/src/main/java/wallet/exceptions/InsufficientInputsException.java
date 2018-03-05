@@ -3,7 +3,7 @@ package wallet.exceptions;
 import org.sendj.core.Coin;
 
 /**
- * Created by furszy on 8/9/17.
+ * Created by kaali on 8/9/17.
  */
 
 public class InsufficientInputsException extends Exception {

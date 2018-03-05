@@ -12,7 +12,7 @@ import send.org.sendwallet.R;
 import send.org.sendwallet.ui.base.BaseFragment;
 
 /**
- * Created by furszy on 7/11/17.
+ * Created by kaali on 7/11/17.
  */
 
 public class KeyboardFragment extends BaseFragment implements View.OnClickListener {

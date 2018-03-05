@@ -9,7 +9,7 @@ import send.org.sendwallet.contacts.AddressLabel;
 import send.org.sendwallet.module.SendContext;
 
 /**
- * Created by furszy on 8/4/17.
+ * Created by kaali on 8/4/17.
  */
 
 public class InputWrapper implements Serializable{

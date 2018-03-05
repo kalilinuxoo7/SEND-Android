@@ -15,7 +15,7 @@ import send.org.sendwallet.ui.base.BaseRecyclerFragment;
 import send.org.sendwallet.ui.base.tools.adapter.BaseRecyclerAdapter;
 
 /**
- * Created by furszy on 7/2/17.
+ * Created by kaali on 7/2/17.
  */
 
 public class NetworkFragment extends BaseRecyclerFragment<Peer> {

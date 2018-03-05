@@ -24,7 +24,7 @@ import send.org.sendwallet.ui.base.dialogs.SimpleTextDialog;
 import send.org.sendwallet.utils.DialogsUtil;
 
 /**
- * Created by furszy on 10/8/17.
+ * Created by kaali on 10/8/17.
  */
 
 public class UpgradeWalletActivity extends BaseActivity {

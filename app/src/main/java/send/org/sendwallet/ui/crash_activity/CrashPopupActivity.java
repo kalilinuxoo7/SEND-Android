@@ -34,7 +34,7 @@ import send.org.sendwallet.utils.CrashReporter;
 import static send.org.sendwallet.utils.AndroidUtils.shareText;
 
 /**
- * Created by furszy on 8/18/17.
+ * Created by kaali on 8/18/17.
  */
 
 public class CrashPopupActivity extends AppCompatActivity implements View.OnClickListener {

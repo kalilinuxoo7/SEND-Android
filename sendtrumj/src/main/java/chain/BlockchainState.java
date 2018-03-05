@@ -1,7 +1,7 @@
 package chain;
 
 /**
- * Created by furszy on 8/8/17.
+ * Created by kaali on 8/8/17.
  */
 
 public enum BlockchainState {

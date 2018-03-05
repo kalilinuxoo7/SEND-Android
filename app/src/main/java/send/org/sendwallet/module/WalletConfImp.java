@@ -18,7 +18,7 @@ import static send.org.sendwallet.module.SendContext.PEER_DISCOVERY_TIMEOUT_MS;
 import static send.org.sendwallet.module.SendContext.PEER_TIMEOUT_MS;
 
 /**
- * Created by furszy on 6/4/17.
+ * Created by kaali on 6/4/17.
  */
 
 public class WalletConfImp extends Configurations implements WalletConfiguration {

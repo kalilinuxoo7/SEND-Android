@@ -26,7 +26,7 @@ import send.org.sendwallet.ui.base.tools.adapter.BaseRecyclerViewHolder;
 import wallet.exceptions.TxNotFoundException;
 
 /**
- * Created by furszy on 8/4/17.
+ * Created by kaali on 8/4/17.
  */
 
 public class InputsFragment extends BaseRecyclerFragment<InputsFragment.InputSelectionWrapper> {

@@ -11,7 +11,7 @@ import org.sendj.params.TestNet3Params;
 import java.io.File;
 
 /**
- * Created by furszy on 6/4/17.
+ * Created by kaali on 6/4/17.
  */
 
 public class SendContext {
