@@ -2,8 +2,8 @@ package sendtrum;
 
 import org.sendj.core.Address;
 import org.sendj.core.CoinDefinition;
-import org.kaali.client.IoManager;
-import org.kaali.client.exceptions.ConnectionFailureException;
+import org.furszy.client.IoManager;
+import org.furszy.client.exceptions.ConnectionFailureException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
