@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">신뢰할수 있는 노드로 변경</string>
     <string name="settings_reset_blockchain">블록체인 재설정</string>
     <string name="save">저장</string>
-    <string name="tutorial_message">피벡스 (Private, Instant, Verified, Transaction) 는 크리에이터, 혁신가, 기술전문가들로 구성된 글로벌 커뮤니티에 의해 운영되는 개인 정보 중심의 분산형 오픈 소스 암호화 화폐입니다.</string>
+    <string name="tutorial_message">사회 송신을위한 혁신적인 암호 해독. 소셜 네트워크 플랫폼간에 즉각적으로 공유하십시오.</string>
     <!-- Tutorial -->
     <string name="next">다음</string>
     <string name="skip">건너뛰기</string>
     <string name="start">시작</string>
-    <string name="title_slide1"></string>
-    <string name="desc_slide1">BIP38 암호화 및 개인 키 암호 해독을 사용하여 지갑 보안 (BIP38 amhohwa mich gaein ki amho haedog-eul sayonghayeo jigab boan)</string>
+    <string name="title_slide1">SEND는 안전합니다.</string>
+    <string name="desc_slide1">BIP38 암호화 및 개인 키 암호 해독을 사용하여 월렛 보안 설정.</string>
     <string name="title_slide2">60초 블록 생성 시간</string>
-    <string name="desc_slide2"> 이미 매우 빠르며, SwiftTX를 사용하는 SEND 트랜잭션은 ZERO 확인 대기 시간이 요구되는 즉시입니다. (imi maeu ppaleumyeo, SwiftTXleul sayonghaneun SEND teulaenjaegsyeon-eun ZERO hwag-in daegi sigan-i yogudoeneun jeugsiibnida.)</string>
+    <string name="desc_slide2"> 이미 매우 빠르며, SwiftTX를 사용하는 SEND 트랜잭션은 ZERO 확인 대기 시간이 요구되는 즉시입니다.</string>
     <string name="title_slide3">절대적으로 안전하고, 여러분의 프라이버시를 지킵니다.</string>
-    <string name="desc_slide3">SEND는 암호화 통화를위한 최초의 소셜 플랫폼을 구축하는 데 목표를두고 있습니다. (SENDneun amhohwa tonghwaleul-wihan choechoui sosyeol peullaespom-eul guchughaneun de mogpyoleuldugo issseubnida.)</string>
+    <string name="desc_slide3">SEND는 암호화 통화를위한 최초의 소셜 플랫폼을 구축하는 데 목표를두고 있습니다.</string>
     <string name="title_slide4">신뢰할수 있는 노드 연합</string>
     <string name="desc_slide4">신뢰할 수있는 노드 연합은 가벼운 PoS 지갑을 만들 수 있으며, 신뢰할 수있는 노드를 만들거나 신뢰할 수있는 노드를 만들 수 있습니다! (sinloehal su-issneun nodeu yeonhab-eun gabyeoun PoS jigab-eul mandeul su iss-eumyeo, sinloehal su-issneun nodeuleul mandeulgeona sinloehal su-issneun nodeuleul mandeul su issseubnida!)</string>
     <string name="option_add_node">노드 추가</string>

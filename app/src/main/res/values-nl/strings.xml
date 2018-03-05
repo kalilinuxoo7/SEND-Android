@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">Wijzig trusted node</string>
     <string name="settings_reset_blockchain">Blockchain resetten</string>
     <string name="save">Opslaan</string>
-    <string name="tutorial_message">SEND, Private, Instant, Verified, Transaction\n is een op privacy-gefocust, gedecentraliseerd, open source cryptovaluta gerund door een wereldwijde gemeenschap die bestaat uit ontwikkelaars, vernieuwers, en technologie enthousiastelingen.</string>
+    <string name="tutorial_message">Innovatieve cryptocurrency voor sociale verzending. Share SEND Direct over sociale netwerkplatforms.</string>
     <!-- Tutorial -->
     <string name="next">Volgende</string>
     <string name="skip">Overslaan</string>
     <string name="start">Beginnen</string>
-    <string name="title_slide1">Send is veilig</string>
-    <string name="desc_slide1">Eerste munt met BIP38 encryptie en decryptie van private keys</string>
+    <string name="title_slide1">SEND is veilig</string>
+    <string name="desc_slide1">BIP38-versleuteling en decodering van persoonlijke sleutels gebruiken om uw portemonnee te beveiligen.</string>
     <string name="title_slide2">60 seconden block time</string>
-    <string name="desc_slide2">Send transacties zijn nu al supersnel door het gebruik van SwiftTX zijn de transacties direct zonder dat er bevestiging nodig is.</string>
+    <string name="desc_slide2">Reeds zeer snel zijn SEND-transacties met SwiftTX direct en er is een ZERO-wachttijd voor bevestiging vereist.</string>
     <string name="title_slide3">Enorm veilig en privé</string>
-    <string name="desc_slide3">SEND richt zich er op om de eerste echte anonieme crypto-currency te zijn.</string>
+    <string name="desc_slide3">SEND richt zich op de oprichting van het eerste sociale platform voor crypto-valuta.</string>
     <string name="title_slide4">Trusted nodes federatie</string>
     <string name="desc_slide4">Vertrouwde nodes federatie maakt lichte PoS portemonnees mogelijk, je kunt er op rekenen of een eigen vertrouwde node maken!</string>
     <string name="option_add_node">Node toevoegen</string>

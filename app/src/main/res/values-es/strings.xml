@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">Cambiar nodo de confianza</string>
     <string name="settings_reset_blockchain">Resetear cadena de bloques</string>
     <string name="save">Guardar</string>
-    <string name="tutorial_message">Privada, Instantánea y Verificada\n es dinero digital descentralizado y de código abierto, focalizado en su privacidad. Está desarrollado por una comunidad global de creadores, emprendedores y entusiastas de la tecnología.</string>
+    <string name="tutorial_message">Cryptocurrency innovador para el envío social. Compartir ENVIAR al instante en plataformas de redes sociales.</string>
     <!-- Tutorial -->
     <string name="next">Siguiente</string>
     <string name="skip">Saltar</string>
     <string name="start">Empezar</string>
-    <string name="title_slide1">Send es seguro</string>
-    <string name="desc_slide1">La primera moneda digital con Encriptado y Desencriptado de Llaves Privadas BIP38</string>
+    <string name="title_slide1">SEND es seguro</string>
+    <string name="desc_slide1">Uso del cifrado BIP38 y descifrado de claves privadas para proteger su billetera.</string>
     <string name="title_slide2">BLOQUES CADA 60 SEGUNDOS</string>
-    <string name="desc_slide2">De por sí ya muy rápida, pero las transacciones SEND que usan SwiftX son instantáneas sin tiempo de espera de confirmaciones.</string>
+    <string name="desc_slide2">Ya muy rápido, las transacciones de SEND utilizando SwiftTX son instantáneas con un tiempo de espera de confirmación CERO.</string>
     <string name="title_slide3">Dinero digital extremadamente seguro y privado</string>
-    <string name="desc_slide3">SEND quiere establecerse como la primera moneda digital realmente anónima.</string>
+    <string name="desc_slide3">SEND apunta a su objetivo de establecer la primera plataforma social para crypto-currency.</string>
     <string name="title_slide4">Federación de nodos de confianza</string>
     <string name="desc_slide4">La federación de nodos de confianza hacen posible los monederos PoS, puedes conectarte a ellos o crear tu propio nodo de confianza!</string>
     <string name="option_add_node">Añadir nodo</string>

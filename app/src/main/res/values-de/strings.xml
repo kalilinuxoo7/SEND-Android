@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">Wechseln des vertrauenswürdigen Knoten</string>
     <string name="settings_reset_blockchain">Blockchain zurücksetzen</string>
     <string name="save">Speichern</string>
-    <string name="tutorial_message">Vertraulich-Sofort- Verifizierte-Transaktion\nist eine dezentralisierte Open-Source-Kryptowährung - gestützt durch eine globale Community von Vordenkern, organisiert durch Technologieenthusiasten und getrieben durch Erfinder. </string>
+    <string name="tutorial_message">Innovative Kryptowährung für Social Sending. Teilen Sie SEND sofort über soziale Netzwerk-Plattformen. </string>
     <!-- Tutorial -->
     <string name="next">weiter</string>
     <string name="skip">überspringen</string>
     <string name="start">Start</string>
     <string name="title_slide1">SEND ist Sicherheit</string>
-    <string name="desc_slide1">Mit BIP38 Verschlüsselung und Entschlüsselung von privaten Schlüsseln, um Ihre Brieftasche zu sichern.</string>
+    <string name="desc_slide1">Verwenden von BIP38 Verschlüsselung und Entschlüsselung privater Schlüssel zum Schutz Ihrer Brieftasche.</string>
     <string name="title_slide2">60 Sekunden Block-Zeit</string>
-    <string name="desc_slide2">SEND-Transaktionen mit SwiftTX sind bereits sehr schnell und sind sofort mit einer NULL-Bestätigungswartezeit erforderlich. </string>
+    <string name="desc_slide2">SEND-Transaktionen mit SwiftTX sind bereits sehr schnell und sind sofort mit einer NULL-Bestätigungswartezeit erforderlich.</string>
     <string name="title_slide3">Extrem sicher und vertraulich</string>
-    <string name="desc_slide3">SEND zielt darauf ab, die erste Social-Plattform für Kryptowährung zu etablieren</string>
+    <string name="desc_slide3">Ziel von SEND ist es, die erste Social-Plattform für Kryptowährung zu etablieren.</string>
     <string name="title_slide4">Verbund vertrauter Knoten</string>
     <string name="desc_slide4">Trusted Nodes Federation ermöglicht leichte PoS-Wallets, Sie können sich darauf verlassen oder Ihren eigenen vertrauenswürdigen Knoten erstellen!</string>
     <string name="option_add_node">Knoten hinzufügen</string>

@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">Změnit důvěryhodný uzel</string>
     <string name="settings_reset_blockchain">Resetovat blockchain</string>
     <string name="save">Uložit</string>
-    <string name="tutorial_message">Privátní, Instantí, Ověřená, Transakce\nje decentralizovaná, privátně zaměřená open source měna užívaná globální komunitou stávající se z jejích tvůrců, inovátorů, a technologických nadšenců.</string>
+    <string name="tutorial_message">Inovatívna kryptocurrency pre sociálne vysielanie. Zdieľajte SEND okamžite cez platformy sociálnych sietí.</string>
     <!-- Tutorial -->
     <string name="next">Ďalší</string>
     <string name="skip">Preskočiť</string>
     <string name="start">Štart</string>
-    <string name="title_slide1">Send je zabezpečený</string>
-    <string name="desc_slide1">Použitie šifrovania a dešifrovania súkromných kľúčov BIP38 na zaistenie peňaženky</string>
+    <string name="title_slide1">SEND je zabezpečený</string>
+    <string name="desc_slide1">Použitie šifrovania a dešifrovania súkromných kľúčov BIP38 na zabezpečenie peňaženky.</string>
     <string name="title_slide2">60 SEKUND PRE SPRACOVANIE BLOKU</string>
     <string name="desc_slide2">Už veľmi rýchlo, transakcie SEND pomocou nástroja SwiftTX sú okamžité s časom čakania na potvrdenie ZERO.</string>
     <string name="title_slide3">Mimoriadne zabezpečená a privátna</string>
-    <string name="desc_slide3">SEND sa zameriava na vytvorenie prvej sociálnej platformy pre krypto-menu</string>
+    <string name="desc_slide3">SEND sa zameriava na to, že je dôležité vytvoriť prvú sociálnu platformu pre krypto-menu.</string>
     <string name="title_slide4">Federácia dôveryhodných uzlov</string>
     <string name="desc_slide4">Federácia dôveryhodných uzlov umožňuje ľahké PeS peňaženky, môžete sa s nimi spoľahnúť alebo vytvoriť vlastný dôveryhodný uzol!</string>
     <string name="option_add_node">Pridať uzol</string>

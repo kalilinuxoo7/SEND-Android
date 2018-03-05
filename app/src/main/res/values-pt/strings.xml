@@ -110,18 +110,17 @@ de sua preferência</string>
     <string name="settings_change_trusted_node">Alterar nó confiável</string>
     <string name="settings_reset_blockchain">Resetar blockchain</string>
     <string name="save">Salvar</string>
-    <string name="tutorial_message">Privada, instantânea e verificada, a trasação é uma moeada criptografada
-de código aberto, descentralizada e de alta privacidade, dirigida por uma comunidade global munida de criadores, inovadores e entusiastas da tecnologia.</string>
+    <string name="tutorial_message">Criptografia inovadora para envio social. Compartilhar ENVIAR de forma instantânea em plataformas de redes sociais.</string>
     <!-- Tutorial -->
     <string name="next">Próximo</string>
     <string name="skip">Pular</string>
     <string name="start">Iniciar</string>
-    <string name="title_slide1">Send é seguro</string>
-    <string name="desc_slide1">Usando criptografia e decodificação BIP38 de chaves privadas para proteger sua carteira</string>
+    <string name="title_slide1">SEND é seguro</string>
+    <string name="desc_slide1">Usando Criptografia BIP38 e Decryption de Chaves Privadas para proteger sua Carteira.</string>
     <string name="title_slide2">60 segundos tempo de bloqueio</string>
     <string name="desc_slide2">Já é muito rápido, as transações de envio usando o SwiftTX são instantâneas com o tempo de espera de confirmação ZERO necessário.</string>
     <string name="title_slide3">Extramamente seguro e privado</string>
-    <string name="desc_slide3">SEND está visando sua visão de estabelecer a primeira plataforma social para criptográfica</string>
+    <string name="desc_slide3">ENVIAR está visando a sua visão de estabelecer a primeira plataforma social para crypto-moeda.</string>
     <string name="title_slide4">Associação de nós confiáveis</string>
     <string name="desc_slide4">A federação de nós confiáveis torna possíveis carteiras PoS leves, você pode confiar nelas ou criar seu próprio nó confiável!
 </string>

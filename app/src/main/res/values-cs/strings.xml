@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">Změnit důvěryhodný uzel</string>
     <string name="settings_reset_blockchain">Resetovat blockchain</string>
     <string name="save">Uložit</string>
-    <string name="tutorial_message">Privátní, Instantí, Ověřená, Transakce\nje decentralizovaná, privátně zaměřená open source měna užívaná globální komunitou stávající se z jejích tvůrců, inovátorů, a technologických nadšenců.</string>
+    <string name="tutorial_message">Inovativní kryptocurrency pro sociální posílání. Sdílejte SEND okamžitě napříč platformami sociálních sítí.</string>
     <!-- Tutorial -->
     <string name="next">Další</string>
     <string name="skip">Přeskočit</string>
     <string name="start">Start</string>
-    <string name="title_slide1">Send je zabezpečen</string>
-    <string name="desc_slide1">Použití šifrování a dešifrování soukromých klíčů BIP38 k zabezpečení peněženky</string>
+    <string name="title_slide1">SEND je zabezpečen</string>
+    <string name="desc_slide1">Použití šifrování a dešifrování soukromých klíčů BIP38 pro zabezpečení peněženky.</string>
     <string name="title_slide2">60 VTEŘIN PRO ZPRACOVÁNÍ BLOKU</string>
     <string name="desc_slide2">Již velmi rychlé transakce SEND pomocí služby SwiftTX jsou okamžité s požadovaným časem čekací doby pro potvrzení.</string>
     <string name="title_slide3">Mimořádně zabezpečená a privátní</string>
-    <string name="desc_slide3">SEND usiluje o vytvoření první sociální platformy pro krypto-měnu</string>
+    <string name="desc_slide3">SEND usiluje o to, aby byla zřízena první společenská platforma pro krypto-měnu.</string>
     <string name="title_slide4">Federace důvěryhodných uzlů</string>
     <string name="desc_slide4">Fed Federace důvěryhodných uzlů umožňuje lehké PoS peněženky, můžete se na ně spolehnout nebo vytvořit vlastní důvěryhodný uzel!</string>
     <string name="option_add_node">Přidat uzel</string>

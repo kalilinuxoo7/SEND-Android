@@ -114,7 +114,7 @@
     <string name="back">Back</string>
     <string name="restore">Restore</string>
     <string name="start">Start</string>
-    <string name="title_slide1">Send is secure</string>
+    <string name="title_slide1">SEND is secure</string>
     <string name="desc_slide1">Using BIP38 Encryption and Decryption of Private Keys to Secure your Wallet.</string>
     <string name="title_slide2">60 SECOND BLOCK TIME</string>
     <string name="desc_slide2">Already very fast, SEND transactions using SwiftTX are instant with ZERO confirmation wait time required.</string>

@@ -102,17 +102,17 @@
     <string name="settings_change_trusted_node">Vaihda luotettu solmu</string>
     <string name="settings_reset_blockchain">Nollaa lohkoketju</string>
     <string name="save">Tallenna</string>
-    <string name="tutorial_message">Yksityinen Välitön Vahvistettu Rahansiirto, on yksityisyyteen keskittyvä, desentralisoitu, avoimen lähdekoodin kryptovaluutta, jota pyörittää maailmanlaajuinen yhteisö luojia, innovaattoreita ja teknologia intoilijoita.</string>
+    <string name="tutorial_message">Innovatiivinen kriittinen valuutta sosiaaliselle lähetykselle. Jaa lähetä välittömästi sosiaalisten verkostojen kautta.</string>
     <!-- Tutorial -->
     <string name="next">Seuraava</string>
     <string name="skip">Ohita</string>
     <string name="start">Aloita</string>
-    <string name="title_slide1">Send on turvallinen</string>
-    <string name="desc_slide1">BIP38-salauksen salaus ja salauksen purkaminen lompakon suojaamiseksiBIP38-salauksen salaus ja salauksen purkaminen lompakon suojaamiseksi</string>
+    <string name="title_slide1">SEND on turvallinen</string>
+    <string name="desc_slide1">BIP38-salasanan salaus ja salauksen purkaminen salasanan varmistamiseksi.</string>
     <string name="title_slide2">60 SEKUNNIN LOHKO AIKA</string>
     <string name="desc_slide2">Jopa erittäin nopea, lähetä liiketoimet SwiftTX: n avulla välittömästi ZERO-vahvistuksen odotusaikaa varten.</string>
     <string name="title_slide3">Erittäin turvallinen ja yksityinen</string>
-    <string name="desc_slide3">SEND pyrkii näkemään kriittisen valuutan ensimmäisen sosiaalisen foorumin perustamisesta</string>
+    <string name="desc_slide3">SEND pyrkii näkemään kriittisen valuutan ensimmäisen sosiaalisen foorumin perustamisen.</string>
     <string name="title_slide4">Luotettujen solmujen liitto</string>
     <string name="desc_slide4">Luotetut solmut -liittymä tekevät kevyistä PoS-lompakoista mahdollista, luotat niihin tai luo oma luotettava solmu!</string>
     <string name="option_add_node">Lisää solmu</string>
