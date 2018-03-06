@@ -9,7 +9,7 @@ This project contains several sub-projects:
 
 app: The Android app itself. This is probably what you're searching for.
 
-pivtrumj: Stratum protocol implementation.
+sendtrumj: Stratum protocol implementation.
 
 send-core-0.14.3-12.1: sendj.
 
